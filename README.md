@@ -3,8 +3,8 @@ Qlik Sense Pareto (ABC) Analysis
 
 This is a quick shot to allow the assignment of A, B, C Analysis on any field for any expression. 
 
-Just create variable "Pareto" in script
-LET Pareto = '';
+Just create variable "Pareto" in script 
+* LET Pareto = '';
 
 Then add the Field (no Master Dimension, sorry) as the Extension's only Dimension
 Add your ABC Aggregation function as the Extension's only Measure (e.g. Sum(Sales)
