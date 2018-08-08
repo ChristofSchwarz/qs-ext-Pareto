@@ -6,11 +6,11 @@ This is a quick shot to allow the assignment of A, B, C Analysis on any field fo
 Just create variable "Pareto" in script 
 * LET Pareto = '';
 
-Then add the Field (no Master Dimension, sorry) as the Extension's only Dimension
-Add your ABC Aggregation function as the Extension's only Measure (e.g. Sum(Sales)
-
-Click on the extension button while still in edit mode. You will get a browser alert, that the Dimension formula needs to be changed first. 
-Save app and go back to analysis mode. 
+In the extension properties
+* Add the Field (no Master Dimension possible, sorry) as the Extension's only Dimension
+* Add your ABC Aggregation function as the Extension's only Measure (e.g. Sum(Sales)
+* Click on the extension button while still in edit mode. You will get a browser alert, that the Dimension formula needs to be changed first. 
+* Save app and go back to analysis mode. 
 
 You can now click the button anytime and a working formula will be put into Variable 'Pareto' which assigns each value exactly into one class, numbered as 1, 2, and 3
 
